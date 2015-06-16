@@ -1,5 +1,6 @@
 package com.example.saurabhpandey.rottentomatoes;
 
+import android.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -56,8 +57,8 @@ public class MainActivity extends Activity {
         pDialog.show();
 
         // changing action bar color
-        getActionBar().setBackgroundDrawable(
-                new ColorDrawable(Color.parseColor("#1b1b1b")));
+//        getActionBar().setBackgroundDrawable(
+//                new ColorDrawable(Color.parseColor("#1b1b1b")));
 
         // Creating volley request obj
         JsonArrayRequest movieReq = new JsonArrayRequest(url,
